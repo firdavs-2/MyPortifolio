@@ -1,0 +1,162 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/photo_2022-12-11_00-27-00.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper .socialblog{
+    width: 5%;
+    height: 40%;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.619);
+    border-radius: 7px;
+}
+.wrapper .socialblog i{
+    font-size: 30px;
+    color: #fff;
+}
+.wrapper .socialblog i:hover{
+    color: #587798;
+    cursor: pointer;
+}
+.wrapper .aboutblog{
+    width: 20%;
+    height: 56%;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(4px);
+    margin-right: 2rem;
+    border-radius: 7px;
+    border: 2px solid rgba(255, 255, 255, 0.619);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper .aboutblog .userImg{
+    width: 60%;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-top: 3rem;
+}
+.wrapper .aboutblog h5{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 24px;
+}
+.wrapper .aboutblog h6{
+    color: #fff;
+    margin-top: 18px;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.wrapper .aboutblog button{
+    width: 65%;
+    height: 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #587798;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 4px;
+}
+.wrapper .aboutblog button:hover{
+    box-shadow: 0px 0px 20px #fff;
+}
+.wrapper .aboutblog button a{
+    text-decoration: none;
+    color: black;
+}
+.wrapper .mainblog{
+    width: 60%;
+    height: 56%;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 7px;
+    border: 2px solid rgba(255, 255, 255, 0.619);
+    overflow: hidden;
+    display: flex;
+}
+.wrapper .mainblog .sidebar{
+    height: 100%;
+    width: 10%;
+    background-color: rgba(255, 255, 255, 0.619);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.wrapper .mainblog .sidebar .sidebarItem{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: black;
+}
+.wrapper .mainblog .sidebar .sidebarItem:hover{
+    background-color: #587798;
+    color: rgba(255, 255, 255, 0.619);
+}
+.wrapper .mainblog .sidebar .sidebarItems{
+    font-size: 25px;
+}
+.myTitle{
+    color: rgba(255, 255, 255, 0.619);
+}
+.blogsCard{
+    background-color:transparent !important;
+    box-shadow: 0px 0px 10px;
+}
+.btn{
+    background-color: #587798 !important;
+    border: none !important;
+    color: #ffffff9e !important;
+}
+.btn:hover{
+    box-shadow: 0px 0px 20px #587798 !important;
+}
+.portifolio{
+    width: 47%;
+    border: 5px solid #587798;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.portifolio:hover{
+    filter: grayscale(0);
+}
+.myImformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.aboutSection{
+    border-left: 3px solid #fff;
+    padding-left: 5px;
+    cursor:context-menu;
+    font-size: 20px;
+}
+.aboutInform{
+    border-left: 3px solid rgba(255, 255, 255, 0.619);
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.619);
+    transition: all 0.1s ease-in;
+    
+}
+.aboutInform:hover{
+    padding-left: 17px;
+    cursor:context-menu;
+}
+ #p2{
+    margin-left: 26rem;
+    margin-top: -14.2rem;
+}
